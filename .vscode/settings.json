@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^git push --force origin main$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^git commit -am \"chore: add \\.history to \\.gitignore and remove from repo\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
